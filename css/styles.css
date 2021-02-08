@@ -61,6 +61,12 @@ h2{
 
 }
 
+p{
+    width: 50%;
+    margin: 0 auto 50px;
+    color: #8b5e83;
+}
+
 .about-icon{
     color: #8b5e83;
     padding: 30px;
