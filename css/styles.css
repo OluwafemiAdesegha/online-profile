@@ -70,6 +70,7 @@ p{
 .about-icon{
     color: #8b5e83;
     padding: 30px;
+    margin-top: 50px;
 }
 
 .about-icon:hover{
@@ -82,4 +83,85 @@ p{
 
 .about-paragraph{
     color: #8b5e83;
+}
+
+.read-link{
+    text-decoration: none;
+    background-color: #f3c623;
+    padding: 10px 20px;
+    color: #b34180;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.read-link:hover{
+    background-color: #b34180;
+    color: #fff;
+}
+
+
+.middle-skill-section-1{
+    background-color: #b34180;
+    padding: 150px auto 100px;
+    height: 600px;
+}
+
+.web-design-heading{
+    padding-top: 150px;
+    color: #fff;
+}
+
+.web-design-paragraph{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.middle-skill-section-2{
+    padding: 150px auto 100px;
+    height: 600px;
+    /* margin: 150px auto 150px; */
+}
+
+.web-dev-heading{
+    padding-top: 150px;
+    color: #8b5e83;
+}
+
+.web-dev-paragraph{
+    padding-bottom: 10px;
+}
+
+.middle-skill-section-3{
+    background-color: #bc658d;
+    padding: 150px auto 100px;
+    height: 600px;
+    /* margin: 150px auto 150px; */
+}
+
+.tech-support-heading{
+    padding-top: 150px;
+    color: #fff;
+}
+
+.tech-support-paragraph{
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.contact-link, .contact-link-2{
+    text-decoration: none;
+    background-color: #f3c623;
+    padding: 10px 20px;
+    color: #b34180;
+    font-weight: bold;
+}
+
+.contact-link:hover{
+    background-color: #fff;
+    color: #b34180;
+}
+
+.contact-link-2:hover{
+    background-color: #b34180;
+    color: #fff;
 }
