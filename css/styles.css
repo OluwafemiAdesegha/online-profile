@@ -17,12 +17,21 @@ body{
     padding: 1% 5%;
 }
 
+.navbar-icon{
+    color: #fff;
+    margin: 20px;
+}
+
+.navbar-icon:hover{
+    color: #f3c623;
+}
+
 #header-section{
     background-color: #8b5e83;
     padding: 150px 0 30px ;
 }
 
-.header-paragraaph{
+.header-paragraph{
     color: #fff;
     font-size: 1.5rem;
     margin-bottom: 50px;
@@ -37,15 +46,14 @@ body{
 
 .cloud-image-2{
     position: absolute;
-    right: 250px;
     top: 400px;
-
+    right: 250px;
 }
 
 .cloud-image-3{
     width: 350px;
     height: 150px;
-    margin-top: 50px;
+    margin: 50px 0 50px 0;
 }
 
 h1{
@@ -111,6 +119,9 @@ p{
     color: #fff;
 }
 
+.fa-icon{
+    margin-left: 10px;
+}
 
 .middle-skill-section-1{
     background-color: #b34180;
@@ -160,7 +171,46 @@ p{
     padding-bottom: 10px;
 }
 
-.contact-link, .contact-link-2{
+.link-1{
+    text-decoration: none;
+    background-color: #f3c623;
+    padding: 10px 20px;
+    color: #b34180;
+    font-weight: bold;
+}
+
+.link-1:hover{
+    background-color: #fff;
+    color: #b34180;
+}
+
+.link-2{
+    text-decoration: none;
+    background-color: #f3c623;
+    padding: 10px 20px;
+    color: #b34180;
+    font-weight: bold;
+}
+
+.link-2:hover{
+    background-color: #b34180;
+    color: #fff;
+}
+
+.link-3{
+    text-decoration: none;
+    background-color: #f3c623;
+    padding: 10px 20px;
+    color: #b34180;
+    font-weight: bold;
+}
+
+.link-3:hover{
+    background-color: #fff;
+    color: #b34180;
+}
+
+.contact-link{
     text-decoration: none;
     background-color: #f3c623;
     padding: 10px 20px;
@@ -169,12 +219,6 @@ p{
 }
 
 .contact-link:hover{
-    background-color: #fff;
-    color: #b34180;
-}
-
-.contact-link-2:hover{
-    background-color: #b34180;
     color: #fff;
 }
 
@@ -207,4 +251,60 @@ p{
 
 #contact-section{
     margin-top: 80px;
+}
+
+.envelope-icon{
+    margin-left: 5px;
+}
+
+.footer-icon{
+    padding: 0 20px 0;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.footer-icon:hover{
+    color: #f3c623;
+}
+
+
+.footer-paragraph{
+    color: #fff;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.footer-section{
+    background-color: #b34180;
+    overflow:hidden;
+}
+
+@media screen and (max-width:1560px){
+
+    .cloud-image-1{
+        margin-top: 100px;
+        position: absolute;
+        top: 400px;
+        left:100px;
+    }
+    .cloud-image-2{
+        position: absolute;
+        top: 640px;
+        left: 200px;
+    }
+
+    .header-paragraph{
+        font-size: 1.5rem;
+    }
+
+    p{
+        width: 100%;
+        margin: 0 auto 50px;
+        color: #8b5e83;
+    }
+
+    #contact-section{
+        margin-bottom: 50px;
+    }
+
 }
