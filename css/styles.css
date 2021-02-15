@@ -4,6 +4,13 @@ body{
     /* font-family: 'Montserrat', sans-serif; */
 }
 
+/* JAVASCRIPT CSS */
+
+.big  {
+    font-size: 6rem;
+    /* border: 1 solid yellow; */
+}
+
 .top-section{
     background-color: #8b5e83;
 }
@@ -57,7 +64,7 @@ body{
 }
 
 h1{
-    font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Sacramento', cursive;
     font-size: 5rem;
     color: #fff;
     margin: 50px;
@@ -75,9 +82,10 @@ h2{
 }
 
 p{
-    width: 50%;
+    width: 80%;
     margin: 0 auto 50px;
     color: #8b5e83;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .my-pix{
@@ -157,7 +165,7 @@ p{
 .middle-skill-section-3{
     background-color: #bc658d;
     padding: 150px auto 100px;
-    height: 600px;
+    height: 700px;
     /* margin: 150px auto 150px; */
 }
 
@@ -220,6 +228,7 @@ p{
 
 .contact-link:hover{
     color: #fff;
+    background-color: #b34180;
 }
 
 .experience-img-1{
@@ -279,7 +288,7 @@ p{
     overflow:hidden;
 }
 
-@media screen and (max-width:1560px){
+@media screen and (max-width:1300px){
 
     .cloud-image-1{
         margin-top: 100px;
