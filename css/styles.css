@@ -293,13 +293,19 @@ p{
     .cloud-image-1{
         margin-top: 100px;
         position: absolute;
-        top: 320px;
+        top: 300px;
         left:20px;
     }
     .cloud-image-2{
         position: absolute;
-        top: 450px;
+        top: 420px;
         right: 20px;
+    }
+
+    .cloud-image-3{
+        width: 250px;
+        height: 120px;
+        margin: 100px autp 20px;
     }
 
     h1{
