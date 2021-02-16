@@ -141,7 +141,7 @@ p{
 .middle-skill-section-1{
     background-color: #b34180;
     padding: 150px auto 150px;
-    height: 750px;
+    height: 600px;
 }
 
 .web-design-heading{
@@ -156,7 +156,7 @@ p{
 
 .middle-skill-section-2{
     padding: 150px auto 150px;
-    height: 750px;
+    height: 600px;
     /* margin: 150px auto 150px; */
 }
 
@@ -172,7 +172,7 @@ p{
 .middle-skill-section-3{
     background-color: #bc658d;
     padding: 150px auto 150px;
-    height: 850px;
+    height: 600px;
     /* margin: 150px auto 150px; */
 }
 
@@ -336,6 +336,18 @@ p{
         width: 100%;
         margin: 0 auto 50px;
         color: #8b5e83;
+    }
+
+    .middle-skill-section-1{
+        height: 750px;
+    }
+
+    .middle-skill-section-2{
+        height: 750px;
+    }
+
+    .middle-skill-section-3{
+        height: 850px;
     }
 
     #contact-section{
