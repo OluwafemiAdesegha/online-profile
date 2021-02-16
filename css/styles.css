@@ -54,7 +54,7 @@ body{
 .cloud-image-2{
     position: absolute;
     top: 400px;
-    right: 250px;
+    right: 120px;
 }
 
 .cloud-image-3{
@@ -80,6 +80,13 @@ h2{
 .middle-section{
     margin: 150px auto;
 }
+
+.middle-section-contact{
+    margin: 150px auto 0;
+    padding-bottom: 200px;
+}
+
+
 
 p{
     width: 80%;
@@ -255,11 +262,14 @@ p{
 
 .middle-section-contact{
     background-color: #f7f7e8;
-    height: 500px;
+    height: 550px;
 }
 
 #contact-section{
-    margin-top: 80px;
+    margin: 100px auto 0;
+    background-color: #f7f7e8;
+    height: 500px;
+    overflow: hidden;
 }
 
 .envelope-icon{
@@ -305,7 +315,7 @@ p{
     .cloud-image-3{
         width: 150px;
         height: 48px;
-        margin: 100px autp 20px;
+        margin: 100px 20px;
     }
 
     h1{
@@ -328,8 +338,8 @@ p{
         color: #8b5e83;
     }
 
-    #contact-section{
-        margin-bottom: 50px;
-    }
+    /* #contact-section{
+        margin-bottom: 250px;
+    } */
 
 }
