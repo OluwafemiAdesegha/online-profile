@@ -334,8 +334,12 @@ p{
 
     p{
         width: 100%;
-        margin: 0 auto 50px;
+        margin: 0 auto 80px;
         color: #8b5e83;
+    }
+
+    .my-skill{
+        margin: 50px auto;
     }
 
     .middle-skill-section-1{
